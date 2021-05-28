@@ -43,6 +43,15 @@
     @include square(153px);
     margin-bottom: 28px;
     border-radius: 50%;
+
+    transition: transform 0.2s, border-radius 0.4s;
+    transform-origin: center bottom;
+
+    &:hover {
+      transform: scale(1.5);
+      border: 2px solid $colorBlue;
+      border-radius: 15px;
+    }
   }
 
   &__name {

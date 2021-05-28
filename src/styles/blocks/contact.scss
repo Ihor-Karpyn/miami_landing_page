@@ -61,6 +61,8 @@
     text-decoration: none;
 
     cursor: pointer;
+
+    @include textHoverEffect;
   }
 
   &__info-value-mail {
@@ -72,6 +74,8 @@
     text-decoration: none;
 
     cursor: pointer;
+
+    @include textHoverEffect;
   }
 
   &__name-mail-wrapper {

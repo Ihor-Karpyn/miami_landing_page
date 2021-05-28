@@ -40,3 +40,12 @@
   width: $size;
   height: $size;
 }
+
+@mixin textHoverEffect {
+  transition: color 0.2s, text-decoration 0.2s;
+
+  &:hover {
+    color: black;
+    text-decoration: underline;
+  }
+}
